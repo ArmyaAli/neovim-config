@@ -35,6 +35,9 @@ set bg=dark
 set clipboard+=unnamedplus
 colorscheme gruvbox
 
+" General mappings
+map <leader>cd :lcd %:h<CR>
+
 " NERDTree mappings
 nmap <C-t> :NERDTreeToggle<CR>
 nmap <C-r> :NERDTreeRefreshRoot<CR>
@@ -42,6 +45,7 @@ nmap <C-r> :NERDTreeRefreshRoot<CR>
 cnoreabbrev h vert h
 cnoreabbrev e vsplit
 
-" FZF
-nmap <C-f> :Files
+" FZF mappings
+nmap <C-f> :FZF
+
 
