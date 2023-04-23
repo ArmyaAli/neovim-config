@@ -16,3 +16,5 @@ set.wrap = true
 set.ruler = true
 set.background = "dark"
 set.shell= "powershell"
+
+
