@@ -5,11 +5,10 @@ require("commands")
 require("statusline")
 require("autocomplete")
 
--- Setup language servers.
 local lspconfig = require('lspconfig')
+-- Setup language servers.
 lspconfig.pyright.setup {}
 lspconfig.tsserver.setup {}
-lspconfig.angularls.setup {}
 lspconfig.rust_analyzer.setup {
   -- Server-specific settings. See `:help lspconfig-setup`
   settings = {
@@ -55,3 +54,4 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end, opts)
   end,
 })
+
