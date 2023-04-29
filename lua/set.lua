@@ -17,4 +17,4 @@ set.ruler = true
 set.background = "dark"
 set.shell= "powershell"
 
-
+vim.api.nvim_set_option("clipboard","unnamed")
