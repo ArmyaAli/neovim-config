@@ -1,20 +1,10 @@
-local set = vim.opt
-local global = vim.g
-local window = vim.wo
-local buffer = vim.bo
+-- line numbers
+vim.wo.rnu = true;
+vim.wo.number = true;
 
-set.autoindent = true
-set.relativenumber = true
-set.number = true
-set.expandtab = true
-set.tabstop = 2
-set.shiftwidth = 2
-set.smarttab = true
-set.hlsearch = true
-set.incsearch = true
-set.wrap = true
-set.ruler = true
-set.background = "dark"
-set.shell= "powershell"
+-- Tab width - set to 2
+vim.bo.sw = 2;
+vim.bo.ts = 2;
+vim.bo.expandtab = true;
+vim.go.smarttab = true;
 
-vim.api.nvim_set_option("clipboard","unnamed")
