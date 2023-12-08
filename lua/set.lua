@@ -8,3 +8,6 @@ vim.bo.ts = 2;
 vim.bo.expandtab = true;
 vim.go.smarttab = true;
 
+-- incremental search
+vim.opt.incsearch = true;
+
